@@ -1,11 +1,10 @@
-# {{ cookiecutter.project\_name }}
+# Project name
 
-{{ cookiecutter.description }}
+Project description
 
 ## Requirements
 
-[!\[Python Version\](https://img.shields.io/badge/python-{{ cookiecutter.python\_version }}-blue.svg)]()
-* Python {{ cookiecutter.python\_version }} or higher
+* Python 3.13 or higher
 
 ## Table of Contents
 
@@ -33,7 +32,7 @@ python -m venv venv
 **Windows:**
 
 ```bash
-./venv/Scripts/activate
+.\venv\Scripts\activate
 ```
 
 **macOS/Linux:**
@@ -84,7 +83,7 @@ python src/main.py
 Or if it's a module:
 
 ```bash
-python -m module_name
+python -m project_name
 ```
 
 ## Contributing
